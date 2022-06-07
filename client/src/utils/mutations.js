@@ -37,7 +37,6 @@ export const ADD_FRIEND = gql`
     }
   }
 `;
-
 export const ADD_THOUGHT = gql`
   mutation addThought($thoughtText: String!) {
     addThought(thoughtText: $thoughtText) {

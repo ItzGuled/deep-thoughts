@@ -1,21 +1,17 @@
 import React, { useState } from 'react';
-
-import { useMutation } from '@apollo/client';
-import { ADD_REACTION } from '../../utils/mutations';
+import {ADD_REACTION} from '../../utils/mutations'
+import { useMutation } from "@apollo/client";
 
 const ReactionForm = ({ thoughtId }) => {
-  const [reactionBody, setBody] = useState('');
-  const [characterCount, setCharacterCount] = useState(0);
-  const [addReaction, { error }] = useMutation(ADD_REACTION);
-
-  // update state based on form input changes
-  const handleChange = (event) => {
-    if (event.target.value.length <= 280) {
-      setBody(event.target.value);
-      setCharacterCount(event.target.value.length);
-    }
-  };
-
+    const [reactionBody, setBody] = useState('');
+const [characterCount, setCharacterCount] = useState(0);
+const [addReaction, { error }] = useMutation(ADD_REACTION);
+const handleChange = event => {
+  if (event.target.value.length <= 280) {
+    setBody(event.target.value);
+    setCharacterCount(event.target.value.length);
+  }
+};
   // submit form
   const handleFormSubmit = async (event) => {
     event.preventDefault();
