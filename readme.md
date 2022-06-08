@@ -2,17 +2,18 @@
 
 ## Description
 
-Deep thoughts is a full stack MERN application that utilizes the Apollo Server for the specific interactions and also GraphQl. It also utilizes React for the front end. For the backend it uses Mongoose, MongoDB, Node.js and also Express. 
+Deep thoughts is a full stack MERN application that utilizes the Apollo Server for the specific interactions and also GraphQL. It also utilizes React for the front end. For the backend it uses Mongoose, MongoDB, Node.js and also Express. 
 
 This application is a social media website that users can use to interact and post deep thoughts. You have the capability to add friends, makes posts, and even make reactions to the communities thoughts. Theres even the capability to view each users individual thoughts on their thoughts page.
 
 ## Table of Contents
 
-- [Usage](#usage)
-- [Contact](#contact)
-- [License](#license)
 - [Technology Used](#technology-used)
 - [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
+- [License](#license)
+
 
 ## Technology Used
 
